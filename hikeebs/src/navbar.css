@@ -5,3 +5,15 @@ font-style: italic;
 position: fixed;
 width: 100%;
 }
+
+.bran-icon{
+    list-style: none;
+    padding-top: 20px;
+ }
+  
+ 
+.bran-icon li{
+    display:inline;
+    text-align: center;
+    vertical-align: 10px;
+ }
