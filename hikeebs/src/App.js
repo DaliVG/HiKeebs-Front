@@ -1,25 +1,26 @@
-import keycap from './img/keycap.png';
 import './App.css';
+import './footer.css';
+import './aboutus.css'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/header';
+import { Home } from './pages/Home';
+import { AboutUs } from './pages/aboutUs';
+import Footer from './components/footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={keycap} className="App-logo" alt="logo" />
-        <p>
-          Hi-Keebs
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Nuestra última entrada
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header/>
+      <main>
+        <Routes>
+          <Route path="/aboutUs" element={<AboutUs />}/>    
+          <Route path="/" element={<Home />}/>
+        </Routes>
+      </main>
+      <Footer/>
+    </Router>
   );
 }
 

@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import keycapNav from '../img/keycapnav.png';
+import '../navbar.css';
 
 function Header() {
   return (
@@ -20,8 +21,8 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href=".">Home</Nav.Link>
-            <Nav.Link href="#aboutus">About us</Nav.Link>
-            <Nav.Link href="#lista">Keycaps</Nav.Link>
+            <Nav.Link href="/aboutUs">About us</Nav.Link>
+            <Nav.Link href="/lista">Keycaps</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
