@@ -1,0 +1,7 @@
+.navbar {
+font-size: 30px;
+justify-content: space-between;
+font-style: italic;
+position: fixed;
+width: 100%;
+}
