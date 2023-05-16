@@ -5,14 +5,14 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  width: 370px;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 5s linear;
-  }
+.App-logo:hover {
+  transform: translateY(60px);
 }
 
 .App-header {
@@ -30,11 +30,3 @@
   color: #494c4d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
