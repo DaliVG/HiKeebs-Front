@@ -4,6 +4,7 @@ justify-content: space-between;
 font-style: italic;
 position: fixed;
 width: 100%;
+z-index: 2;
 }
 
 .bran-icon{

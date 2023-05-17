@@ -1,0 +1,17 @@
+.shopsGrid {
+    top:200px;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+    z-index: 1;
+    margin-bottom: 200px;
+  }
+  
+  @media (max-width: 580px) {
+    .shopsGrid {
+      grid-template-columns: 25% 25% 25% 25%;
+    }
+  }

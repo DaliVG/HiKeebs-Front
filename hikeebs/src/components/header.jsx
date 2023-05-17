@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import keycapNav from '../img/keycapnav.png';
 import brand from '../img/marca.png'
-import '../navbar.css';
+import '../css/navbar.css';
 
 function Header() {
   return (
@@ -31,7 +31,7 @@ function Header() {
           <Nav className="gap-4">
             <Nav.Link href=".">Home</Nav.Link>
             <Nav.Link href="/aboutUs">About us</Nav.Link>
-            <Nav.Link href="/lista">Keycaps</Nav.Link>
+            <Nav.Link href="/Keycaps">Keycaps</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
