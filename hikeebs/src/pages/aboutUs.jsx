@@ -10,9 +10,9 @@ export function AboutUs() {
         <Col>    
         <div>
       <h1>About Us</h1>
-      <p>Welcome to our website!</p>
-      <p>We are a passionate team dedicated to providing quality products/services.</p>
-      <p>Our mission is to make a positive impact on people's lives through innovative solutions.</p>
+        <p>Welcome to our website!</p>
+        <p>We are a passionate team dedicated to providing quality products/services.</p>
+        <p>Our mission is to make a positive impact on people's lives through innovative solutions.</p>
       <h2>Our Team</h2>
       <ul>
         <li>Viviana Baute</li>

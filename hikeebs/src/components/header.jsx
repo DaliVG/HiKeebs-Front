@@ -28,10 +28,10 @@ function Header() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="gap-4">
-            <Nav.Link href=".">Home</Nav.Link>
+          <Nav className="gap-5">
             <Nav.Link href="/aboutUs">About us</Nav.Link>
             <Nav.Link href="/Keycaps">Keycaps</Nav.Link>
+            <Nav.Link href="/Auth">Loging</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

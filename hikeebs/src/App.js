@@ -1,15 +1,16 @@
 import './css/App.css';
 import './css/footer.css';
 import './css/aboutus.css';
-import './css/App.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/header';
 import { Home } from './pages/Home';
 import { AboutUs } from './pages/aboutUs';
 import { Keycaps } from './pages/keycaps';
+import { KeycapDetails } from './pages/Details';
 import Footer from './components/footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Auth } from './components/login';
 
 function App() {
   return (
@@ -17,7 +18,11 @@ function App() {
       <Header className='App-header'/>
       <main>
         <Routes>
-        <Route path="/keycaps" element={<Keycaps />}/>
+          <Route exact path="/keycaps/:keycapId">
+          <KeycapDetails />
+          </Route>
+          <Route path="/login" element={<Auth />}/>  
+          <Route path="/keycaps" element={<Keycaps />}/>
           <Route path="/aboutUs" element={<AboutUs />}/>    
           <Route path="/" element={<Home />}/>
         </Routes>
