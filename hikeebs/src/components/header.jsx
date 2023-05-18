@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import keycapNav from '../img/keycapnav.png';
 import brand from '../img/marca.png'
-import '../navbar.css';
+import '../css/navbar.css';
 
 function Header() {
   return (
@@ -28,10 +28,11 @@ function Header() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="gap-4">
-            <Nav.Link href=".">Home</Nav.Link>
+          <Nav className="gap-5">
             <Nav.Link href="/aboutUs">About us</Nav.Link>
-            <Nav.Link href="/lista">Keycaps</Nav.Link>
+            <Nav.Link href="/keycaps">Keycaps</Nav.Link>
+            <Nav.Link href="/Auth">Log-in</Nav.Link>
+            <Nav.Link href="/Auth">Register</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
