@@ -1,4 +1,3 @@
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import keycapNav from '../img/keycapnav.png';
@@ -8,7 +7,6 @@ import '../css/navbar.css';
 function Header() {
   return (
     <Navbar bg="light" expand="lg">
-      <Container>
         <Navbar.Brand href=".">
           <ul className="bran-icon">
             <li>
@@ -21,7 +19,7 @@ function Header() {
             />
             </li>
             <li>
-<img src={brand} className="App-marca" alt="marca" width="250px"
+        <img src={brand} className="App-marca" alt="marca" width="250px"
         height="80px"/>
             </li>
           </ul>
@@ -31,11 +29,12 @@ function Header() {
           <Nav className="gap-5">
             <Nav.Link href="/aboutUs">About us</Nav.Link>
             <Nav.Link href="/keycaps">Keycaps</Nav.Link>
+          </Nav>
+          <div className="gap-5 log">
             <Nav.Link href="/Auth">Log-in</Nav.Link>
             <Nav.Link href="/Auth">Register</Nav.Link>
-          </Nav>
+          </div>
         </Navbar.Collapse>
-      </Container>
     </Navbar>
   );
 }

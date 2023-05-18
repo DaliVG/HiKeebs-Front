@@ -6,10 +6,21 @@
     z-index: 2;
 }
 
+.navbar .container{
+    width: 100% !important;
+    margin: 0px !important;
+}
+
 .bran-icon{
     list-style: none;
     padding-top: 20px;
  }
+
+.log{
+    display: flex;
+    position: absolute;
+    right: 30px;
+}
   
  
 .bran-icon li{
