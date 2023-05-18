@@ -31,7 +31,8 @@ function Header() {
           <Nav className="gap-5">
             <Nav.Link href="/aboutUs">About us</Nav.Link>
             <Nav.Link href="/keycaps">Keycaps</Nav.Link>
-            <Nav.Link href="/Auth">Loging</Nav.Link>
+            <Nav.Link href="/Auth">Log-in</Nav.Link>
+            <Nav.Link href="/Auth">Register</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

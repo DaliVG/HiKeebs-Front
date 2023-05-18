@@ -8,6 +8,10 @@
     transition: box-shadow 0.2s ease-in;
   }
 
+  .shopCard a {
+    font-style: none;
+  }
+
   @media (max-width: 560px) {
     .shopImage {
       width: 90%;

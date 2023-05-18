@@ -1,7 +1,6 @@
 import styles from "../css/ShopCard.module.css";
 import { Link } from "react-router-dom";
 import Card from 'react-bootstrap/Card';
-import { Keycaps } from "../pages/keycaps";
 
 export function ShopCard({ shop }) {
   return (
