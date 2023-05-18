@@ -30,7 +30,7 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="gap-5">
             <Nav.Link href="/aboutUs">About us</Nav.Link>
-            <Nav.Link href="/Keycaps">Keycaps</Nav.Link>
+            <Nav.Link href="/keycaps">Keycaps</Nav.Link>
             <Nav.Link href="/Auth">Loging</Nav.Link>
           </Nav>
         </Navbar.Collapse>

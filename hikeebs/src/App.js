@@ -18,9 +18,7 @@ function App() {
       <Header className='App-header'/>
       <main>
         <Routes>
-          <Route exact path="/keycaps/:keycapId">
-          <KeycapDetails />
-          </Route>
+          <Route exact path="keycaps/:sculptId" element={<KeycapDetails />}/>
           <Route path="/login" element={<Auth />}/>  
           <Route path="/keycaps" element={<Keycaps />}/>
           <Route path="/aboutUs" element={<AboutUs />}/>    
