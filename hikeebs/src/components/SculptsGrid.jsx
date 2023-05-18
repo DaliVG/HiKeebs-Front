@@ -6,7 +6,7 @@ export function SculptsGrid({ide}) {
   const colorways = keycaps.find((keycap) => keycap.sculpts.some((sculpt) => sculpt.id === ide)).sculpts.find((sculpt) => sculpt.id === ide).colorways;
     return (
         <div className={styles.sculptsGrid}>
-          {colorways.forEach(ke=> <SculptsCard key={ke.id} colorway={ke} />) 
+          {colorways.map(ke=> <SculptsCard key={ke.id} colorway={ke} />) 
           }
         </div>
       );
