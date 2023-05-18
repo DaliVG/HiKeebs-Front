@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import './css/footer.css';
+import './css/aboutus.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/header';
+import { Home } from './pages/Home';
+import { AboutUs } from './pages/aboutUs';
+import { Keycaps } from './pages/keycaps';
+import { KeycapDetails } from './pages/Details';
+import Footer from './components/footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Auth } from './components/login';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header className='App-header'/>
+      <main>
+        <Routes>
+          <Route exact path="keycaps/:sculptId" element={<KeycapDetails />}/>
+          <Route path="/login" element={<Auth />}/>  
+          <Route path="/keycaps" element={<Keycaps />}/>
+          <Route path="/aboutUs" element={<AboutUs />}/>    
+          <Route path="/" element={<Home />}/>
+        </Routes>
+      </main>
+      <Footer/>
+    </Router>
   );
 }
 
