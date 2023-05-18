@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+.App-logo {
+  width: 370px;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.App-logo:hover {
+  transform: translateY(60px);
+}
+
+.App-header {
+  background-color: #FFD9DA;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  color: white;
+}
+
+.App-link {
+  color: #494c4d;
+}
+

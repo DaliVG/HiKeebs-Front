@@ -1,0 +1,17 @@
+.sculptsGrid {
+    top:200px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+    z-index: 1;
+    margin-bottom: 200px;
+  }
+  
+  @media (max-width: 580px) {
+    .sculptsGrid {
+      grid-template-columns: 25% 25% 25% 25%;
+    }
+  }
