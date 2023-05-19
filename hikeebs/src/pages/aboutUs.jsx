@@ -9,34 +9,34 @@ export function AboutUs() {
       <Row>
         <Col>    
         <div>
-      <h1>About Us</h1>
-        <p>Welcome to our website!</p>
-        <p>We are a passionate team dedicated to providing quality products/services.</p>
-        <p>Our mission is to make a positive impact on people's lives through innovative solutions.</p>
-      <h2>Our Team</h2>
-      <ul>
-        <li>Viviana Baute</li>
-        <li>Sergio González</li>
-        <li>Daliborka Vidic</li>
-      </ul>
+          <h1>About Us</h1>
+            <p>Welcome to our website!</p>
+            <p>We are a passionate team dedicated to providing quality products/services.</p>
+            <p>Our mission is to make a positive impact on people's lives through innovative solutions.</p>
+          <h2>Our Team</h2>
+            <ul>
+              <li>Viviana Baute</li>
+              <li>Sergio González</li>
+              <li>Daliborka Vidic</li>
+            </ul>
       </div>
       </Col>
-        <Col>      
+      <Col>      
         <div>
-        <h2>Our Values</h2>
-      <ul>
-        <li>Customer Satisfaction</li>
-        <li>Integrity</li>
-        <li>Innovation</li>
-        <li>Collaboration</li>
-        <li>Excellence</li>
-      </ul>
-      <h2>Contact Us</h2>
-      <p>If you have any questions or inquiries, please feel free to reach out to us:</p>
-      <p>Email: info@example.com</p>
-      <p>Phone: 123-456-7890</p>
-    </div>
-    </Col>
+          <h2>Our Values</h2>
+              <ul>
+                <li>Customer Satisfaction</li>
+                <li>Integrity</li>
+                <li>Innovation</li>
+                <li>Collaboration</li>
+                <li>Excellence</li>
+              </ul>
+          <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, please feel free to reach out to us:</p>
+            <p>Email: info@example.com</p>
+            <p>Phone: 123-456-7890</p>
+        </div>
+      </Col>
       </Row>
     </Container>
   );
