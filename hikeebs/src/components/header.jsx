@@ -26,14 +26,15 @@ function Header() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="gap-5">
-            <Nav.Link href="/aboutUs">About us</Nav.Link>
+          <Nav className="gap-5 m-5">
             <Nav.Link href="/keycaps">Keycaps</Nav.Link>
+            <Nav.Link href="/aboutUs">About us</Nav.Link>
           </Nav>
-          <div className="gap-5 log">
-            <Nav.Link href="/Auth">Log-in</Nav.Link>
-            <Nav.Link href="/Auth">Register</Nav.Link>
-          </div>
+          <Nav className="gap-5 log">
+            <Nav.Link href="">Cart</Nav.Link>
+            <Nav.Link href="/login">Log-in</Nav.Link>
+            <Nav.Link href="/register">Register</Nav.Link>
+          </Nav>
         </Navbar.Collapse>
     </Navbar>
   );
