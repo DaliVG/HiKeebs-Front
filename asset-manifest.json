@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.801bc0e8.css",
-    "main.js": "/static/js/main.b4ab066d.js",
-    "static/js/787.b6592bab.chunk.js": "/static/js/787.b6592bab.chunk.js",
-    "static/media/keycapnav.png": "/static/media/keycapnav.cc8c62f8119e8bf42f42.png",
-    "static/media/marca.png": "/static/media/marca.93cac4de57fab0070430.png",
-    "static/media/keycap.png": "/static/media/keycap.d6795d6ce7f2fc838937.png",
-    "index.html": "/index.html",
-    "main.801bc0e8.css.map": "/static/css/main.801bc0e8.css.map",
-    "main.b4ab066d.js.map": "/static/js/main.b4ab066d.js.map",
-    "787.b6592bab.chunk.js.map": "/static/js/787.b6592bab.chunk.js.map"
+    "main.css": "/HiKeebs-Front/static/css/main.801bc0e8.css",
+    "main.js": "/HiKeebs-Front/static/js/main.d2278cff.js",
+    "static/js/787.b6592bab.chunk.js": "/HiKeebs-Front/static/js/787.b6592bab.chunk.js",
+    "static/media/keycapnav.png": "/HiKeebs-Front/static/media/keycapnav.cc8c62f8119e8bf42f42.png",
+    "static/media/marca.png": "/HiKeebs-Front/static/media/marca.93cac4de57fab0070430.png",
+    "static/media/keycap.png": "/HiKeebs-Front/static/media/keycap.d6795d6ce7f2fc838937.png",
+    "index.html": "/HiKeebs-Front/index.html",
+    "main.801bc0e8.css.map": "/HiKeebs-Front/static/css/main.801bc0e8.css.map",
+    "main.d2278cff.js.map": "/HiKeebs-Front/static/js/main.d2278cff.js.map",
+    "787.b6592bab.chunk.js.map": "/HiKeebs-Front/static/js/787.b6592bab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.801bc0e8.css",
-    "static/js/main.b4ab066d.js"
+    "static/js/main.d2278cff.js"
   ]
 }
