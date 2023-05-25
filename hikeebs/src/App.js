@@ -12,7 +12,7 @@ import Footer from './components/footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Auth } from './components/login';
 import { RegisterForm } from './components/register';
-import { MyCart } from './pages/Cart';
+import { MyCart } from './components/cart';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route exact path="keycaps/:sculptId" element={<KeycapDetails />}/>
           <Route path="/login" element={<Auth />}/>  
-          {/* <Route path="/cart" element={<MyCart />}/>   */}
+          <Route path="/cart" element={<MyCart />}/>  
 
           <Route path="/register" element={<RegisterForm />}/>
           <Route path="/keycaps" element={<Keycaps />}/>
