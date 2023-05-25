@@ -79,7 +79,7 @@ export function MyCart() {
               <div class="col-md-2 d-flex justify-content-center">
                 <div>
                   <p class="small text-muted mb-4 pb-2">Price</p>
-                  <p class="lead fw-normal mb-0">15€</p>
+                  <p class="lead fw-normal mb-0">25€</p>
                 </div>
               </div>
               <div class="col-md-2 d-flex justify-content-center">
@@ -89,13 +89,8 @@ export function MyCart() {
                 </div>
               </div>
             </div>
-
-
-
-
           </div>
         </div>
-
         <div class="card mb-5">
           <div class="card-body p-4">
 
